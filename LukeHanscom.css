@@ -1,0 +1,137 @@
+﻿@media screen {
+    body {
+        font-family: Verdana,sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 1000px;
+    }
+    .section {
+        border-radius: 2px; 
+        box-shadow: 0 3px 3px 0 #00004d;    
+        padding: 5px 0px 5px 0px;     
+    }
+    .company {
+        background: #cccccc;
+        color: #000;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        width: 90%;
+        padding: 5px 10px 5px 10px;     
+        -webkit-border-radius: 2px; 
+        -moz-border-radius: 2px; 
+        border-radius: 2px; 
+        box-shadow: 0 1px 1px 0 #a6a6a6;
+    }
+}
+@media print {
+     body {
+        font-family: Verdana,sans-serif;
+        margin-left: 0%;
+        margin-right: 0%;
+        max-width: 100%;
+    }
+    .section {
+        border-radius: 2px; 
+        padding: 5px 0px 5px 0px;     
+    }
+    .company {
+        background: #cccccc;
+        color: #000;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        width: 90%;
+        padding: 5px 10px 5px 10px;     
+        -webkit-border-radius: 2px; 
+        -moz-border-radius: 2px; 
+        border-radius: 2px; 
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: black;
+    }
+}
+.header {
+    padding: 5px 0px 5px 0px;     
+}
+.main {
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+}
+
+.h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    padding: 0px 0px 5px 0px;     
+
+}
+.contact {
+    display: inline-block;
+    width: 100%;
+    font-size: 11px;
+    vertical-align: top;
+}
+.phone {
+    text-align: left;
+    float: left;
+}
+.email {
+    text-align: right;
+    float: right;
+}
+
+.h2 {
+    background:#00004d;
+     color: #fff;
+     font-size: 16px;
+     width: 100%;
+     padding: 10px 0px 5px 5px;
+     -webkit-border-radius: 2px; 
+     -moz-border-radius: 2px; 
+     border-radius: 2px; 
+}
+
+.employmentDate {
+    text-align: right;
+    float: right;
+}
+.title {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;     
+}
+.details {
+    font-size: 11px;
+    font-weight: normal;
+}
+.listItem {
+    display: inline-flex;
+    list-style-type: disc;
+    padding: 0px 0px 5px 0px;    
+}
+.techDetails {
+    font-style: italic;
+     padding: 0px 0px 0px 5px;    
+}
+
+tr {
+    height: 30px;
+}
+.expertiseGroup {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px 0px 0px 5px;    
+    width: 100px;
+}
+.expertiseDetail {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Verdana,sans-serif;   
+    padding: 0px 0px 0px 5px;    
+}
